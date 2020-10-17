@@ -1,0 +1,37 @@
+{
+  "name": "jobsity-challenge",
+  "scripts": {
+    "cy:open": "npm run cy:report:clean && npx cypress open",
+    "cy:run": "npm run cy:report:clean && npx cypress run --spec **/all.features",
+    "cy:report:clean": "npx del results/json/** results/report/** && npx make-dir results/json results/report",
+    "cy:report:generate": "node results/generate-report.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarleyGabriel/jobsity-challenge.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WarleyGabriel/jobsity-challenge/issues"
+  },
+  "homepage": "https://github.com/WarleyGabriel/jobsity-challenge#readme",
+  "dependencies": {
+    "chance": "^1.1.7",
+    "cucumber-html-reporter": "^5.2.0",
+    "cypress": "^5.3.0",
+    "cypress-cucumber-preprocessor": "^4.0.0",
+    "cypress-file-upload": "^4.1.1",
+    "cypress-plugin-snapshots": "^1.4.4",
+    "del-cli": "^3.0.1",
+    "make-dir-cli": "^2.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/integration/steps",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "results/json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}
