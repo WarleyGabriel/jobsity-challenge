@@ -23,7 +23,7 @@
             "name": "I access the home page",
             "result": {
               "status": "passed",
-              "duration": 4881000000
+              "duration": 5608000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "I click to access the contact page",
             "result": {
               "status": "passed",
-              "duration": 886000000
+              "duration": 714000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "I send a message with a document",
             "result": {
               "status": "passed",
-              "duration": 10498000000
+              "duration": 6730000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "the system shows feedback that the message was sent",
             "result": {
               "status": "passed",
-              "duration": 26000000
+              "duration": 43000000
             }
           }
         ]
@@ -84,7 +84,7 @@
             "name": "I access the home page",
             "result": {
               "status": "passed",
-              "duration": 19755000000
+              "duration": 14844000000
             }
           },
           {
@@ -94,7 +94,7 @@
             "name": "the system shows the page visually correct",
             "result": {
               "status": "passed",
-              "duration": 5159000000
+              "duration": 5133000000
             }
           }
         ]
@@ -125,7 +125,7 @@
             "name": "I access the home page",
             "result": {
               "status": "passed",
-              "duration": 26959000000
+              "duration": 21426000000
             }
           },
           {
@@ -135,7 +135,7 @@
             "name": "I search for products by typing a keyword",
             "result": {
               "status": "passed",
-              "duration": 2487000000
+              "duration": 1530000000
             }
           },
           {
@@ -145,7 +145,7 @@
             "name": "the system shows only a product that have the keyword in the title",
             "result": {
               "status": "passed",
-              "duration": 22000000
+              "duration": 19000000
             }
           },
           {
@@ -155,7 +155,7 @@
             "name": "the system shows only 1 product on the page",
             "result": {
               "status": "passed",
-              "duration": 26000000
+              "duration": 27000000
             }
           }
         ]
