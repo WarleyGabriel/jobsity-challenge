@@ -41,7 +41,7 @@ Run e2e tests in headless mode (Electron):
 npm run cy:run
 ```
 
-```
+```bash
 Send a contact
     ✓ The system should show a successful message (16103ms)
 
